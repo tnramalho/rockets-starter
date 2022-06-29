@@ -1,0 +1,11 @@
+{
+    "name": "Rockets Starter WEB",
+    "description": "This is the web app for Rockets Starter.",   
+    "repository": "https://github.com/tnramalho/rockets-starter/tree/feature/deploy-button",            
+    "formation": {
+      "web": {
+        "quantity": 1,
+        "size": "free"
+      }
+    }
+  }

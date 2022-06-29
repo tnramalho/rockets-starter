@@ -1,0 +1,40 @@
+{
+    "name": "Rockets Starter API",  
+    "description": "This is the api for Rockets Starter.",    
+    "repository": "https://github.com/tnramalho/rockets-starter/tree/feature/deploy-button",            
+    "env": {
+      "DATABASE_URL": {
+          "required": true
+      },
+      "DATABASE_SSL": {
+        "required": true
+      },
+      "DATABASE_SYNCHRONIZE": {
+        "required": true
+      },
+      "CORS_ORIGIN": {
+        "required": true
+      }
+    },  
+    "environments": {
+      "test": {
+        "env": {
+          "DATABASE_URL": "postgresql://postgres:postgres@localhost:5432/rockets-starter",
+          "DATABASE_SSL": false,
+          "DATABASE_SYNCHRONIZE": false,
+          "CORS_ORIGIN": "http://localhost:3000"
+        }
+      }
+    },   
+    "formation": {
+      "web": {
+        "quantity": 1,
+        "size": "free"
+      }
+    },  
+    "addons": [     
+      {
+        "plan": "heroku-postgresql"        
+      }
+    ]
+  }
