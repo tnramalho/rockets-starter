@@ -25,7 +25,7 @@ and [local machine](#local-machine).
 
 ## Environment
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/conceptadev/rockets-starter/tree/feature/deploy-button)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://heroku.com/deploy?template=https://github.com/tnramalho/rockets-starter/tree/feature/deploy-button)
 
 Choose your preferred development environment from one of the three options below.
 
