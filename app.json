@@ -1,15 +1,7 @@
 {
     "name": "Rockets Starter",   
     "repository": "https://github.com/tnramalho/rockets-starter/tree/feature/deploy-button",            
-    "env": {
-      "APP_BASE": {
-          "required": true
-      }
-    },   
     "buildpacks": [
-      {
-        "url": "https://github.com/lstoll/heroku-buildpack-monorepo"
-      },
       {
         "url": "heroku/nodejs"    
       }
