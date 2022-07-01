@@ -1,1 +1,1 @@
-api: yarn --cwd packages/rockets-api start:prod
+api: yarn --cwd packages/rockets-api start
