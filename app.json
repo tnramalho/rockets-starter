@@ -6,16 +6,16 @@
         "required": true
       },
       "DATABASE_URL": {
-        "required": true
+        "required": false
       },
       "DATABASE_SSL": {
-        "required": true
+        "required": false
       },
       "DATABASE_SYNCHRONIZE": {
-        "required": true
+        "required": false
       },
       "CORS_ORIGIN": {
-        "required": true
+        "required": false
       }
     },  
     "environments": {
