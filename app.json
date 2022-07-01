@@ -28,6 +28,11 @@
         }
       }
     },
+    "addons": [     
+      {
+        "plan": "heroku-postgresql"        
+      }
+    ],
     "buildpacks": [
       {
         "url": "https://github.com/lstoll/heroku-buildpack-monorepo"
@@ -35,5 +40,8 @@
       {
         "url": "heroku/nodejs"    
       }
-    ]
+    ],
+    "scripts": {
+      "postdeploy": "bash ./scripts/heroku.sh"
+    }
   }

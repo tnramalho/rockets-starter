@@ -1,1 +1,1 @@
-web: yarn --cwd start:prod
+web: yarn --cwd start
