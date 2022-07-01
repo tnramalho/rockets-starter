@@ -16,7 +16,7 @@ fi
 
   if [ "$APP_BASE" = "packages/rockets-web" ]; then
     yarn start:web
-  elif [ "$APP_BASE" = "packages/rockets-api" ]; then
+  elif [ "$APP_BASE" = "/" ]; then
     yarn sandbox:init
   else
     echo "Error: no build config for INATO_BUILD_ENV value '$INATO_BUILD_ENV'"
