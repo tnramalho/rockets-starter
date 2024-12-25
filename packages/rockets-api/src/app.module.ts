@@ -21,7 +21,7 @@ import { RoleModule } from '@concepta/nestjs-role';
 import { AuthRecoveryModule } from '@concepta/nestjs-auth-recovery';
 import { OtpModule, OtpService } from '@concepta/nestjs-otp';
 import { EmailModule, EmailService } from '@concepta/nestjs-email';
-import { EmailSendOptionsInterface } from '@concepta/ts-common';
+import { EmailSendOptionsInterface } from '@concepta/nestjs-common';
 import {
   InvitationAcceptedEventAsync,
   InvitationModule,

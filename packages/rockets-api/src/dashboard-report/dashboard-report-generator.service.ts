@@ -3,7 +3,7 @@ import {
   ReportGeneratorResultInterface,
   ReportGeneratorServiceInterface,
 } from '@concepta/nestjs-report';
-import { ReportStatusEnum } from '@concepta/ts-common';
+import { ReportStatusEnum } from '@concepta/nestjs-common';
 import { Inject, Injectable } from '@nestjs/common';
 import axios from 'axios';
 import { promises as fs } from 'fs';

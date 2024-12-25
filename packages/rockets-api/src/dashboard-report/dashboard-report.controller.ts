@@ -1,5 +1,5 @@
 import { ReportService } from '@concepta/nestjs-report';
-import { ReportInterface, ReportStatusEnum } from '@concepta/ts-common';
+import { ReportInterface, ReportStatusEnum } from '@concepta/nestjs-common';
 import { Body, Controller, Get, Param, Post } from '@nestjs/common';
 import { ApiResponse, ApiTags } from '@nestjs/swagger';
 import { REPORT_KEY_DASHBOARD_REPORT } from './dashboard-report.constants';
