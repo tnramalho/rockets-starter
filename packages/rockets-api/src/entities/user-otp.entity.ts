@@ -1,5 +1,5 @@
 import { Entity, ManyToOne } from 'typeorm';
-import { ReferenceIdInterface } from '@concepta/ts-core';
+import { ReferenceIdInterface } from '@concepta/nestjs-common';
 import { OtpPostgresEntity } from '@concepta/nestjs-otp';
 
 import { UserEntity } from './user.entity';
