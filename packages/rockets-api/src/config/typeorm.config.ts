@@ -16,6 +16,7 @@ import { InvitationEntity } from '../entities/invitation.entity';
 import { UserCacheEntity } from '../entities/user-cache.entity';
 import { FileEntity } from '../entities/file.entity';
 import { ReportEntity } from '../entities/report.entity';
+import { OrgProfileEntity } from '../modules/org-profile/org-profile.entity';
 
 export const ormConfigFactory = (): DataSourceOptions => {
   // return the configuration
@@ -28,6 +29,7 @@ export const ormConfigFactory = (): DataSourceOptions => {
     entities: [
       UserEntity,
       OrgEntity,
+      OrgProfileEntity,
       OrgMemberEntity,
       FederatedEntity,
       RoleEntity,

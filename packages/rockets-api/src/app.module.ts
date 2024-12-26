@@ -48,6 +48,7 @@ import { FileEntity } from './entities/file.entity';
 import { ReportModule } from '@concepta/nestjs-report';
 import { DashboardReportGeneratorService } from './dashboard-report/dashboard-report-generator.service';
 import { ReportEntity } from './entities/report.entity';
+import { OrgProfileModuleFixture } from './modules/org-profile/org-profile.module';
 
 @Module({
   imports: [
@@ -69,6 +70,7 @@ import { ReportEntity } from './entities/report.entity';
     PasswordModule.forRoot({}),
     CrudModule.forRoot({}),
     // TODO OrgModule will only work if imported before UserModule
+    OrgProfileModuleFixture,
     OrgModule.registerAsync({
       inject: [UserLookupService],
       useFactory: (userLookupService: UserLookupService) => ({
@@ -206,6 +208,7 @@ import { ReportEntity } from './entities/report.entity';
         },
       },
     }),
+    
   ],
 })
 export class AppModule {}
